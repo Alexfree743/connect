@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(#333333,#000033);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media(max-width:767px) {
+  .adm{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .adm .logo{
+    margin-right: 15px;
+    text-align: center;
+    color: white;
+    line-height: 7px;
+    opacity: .7;
+  }
+  svg{
+    fill: white;
+  }
+  .advert{
+    border: 2px solid white;
+    width: 95%;
+    margin:10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    animation: animate2 5s linear infinite;
+  }
+  .advert h2{
+    color: white;
+  }
+  .advert .benefits2{
+    position: relative;
+    height: 1.5em;
+    z-index: -1;
+    overflow: hidden;
+    display: flex;
+    font-size: calc(1em +10px);
+    flex-direction: column;
+  }
+  @keyframes auto-scroll2{
+    0%{
+      transform: translateY(0);
+    }
+    30%{
+      transform: translateY(0);
+    }
+    35%{
+      transform: translateY(-1.1em);
+    }
+    65%{
+      transform: translateY(-1.1em);
+    }
+    70%{
+      transform: translateY(-2.38em);
+    }
+    100%{
+      transform: translateY(-2.39em);
+    }
+  }
+  .benefits2 span{
+    background: -webkit-linear-gradient(red,yellow);
+    -webkit-background-clip: text;
+    font-family: verdana;
+    font-size: 20px;
+    -webkit-text-fill-color: transparent;
+    animation: auto-scroll2 15s infinite;
+
+  }
+  
+@keyframes animate2{
+
+  0%{
+      box-shadow: 0 2px 10px rgba(255,0,0,1);
+      border: 1px solid rgba(255,0,0,1);
+
+  }
+  20%{
+      box-shadow: 0 2px 10px rgba(255,255,0,1);
+      border: 1px solid rgba(255,255,0,1);
+
+  }
+  40%{
+      box-shadow: 0 2px 10px rgba(0,255,0,1);
+      border: 1px solid rgba(0,255,0,1);
+
+  }
+  60%{
+      box-shadow: 0 2px 10px rgba(0,255,255,1);
+      border: 1px solid rgba(0,255,255,1);
+
+  }
+  80%{
+      box-shadow: 0 2px 10px rgba(0,0,255,1);
+      border: 1px solid rgba(0,0,255,1);
+
+  }
+  100%{
+      box-shadow: 0 2px 10px rgba(255,0,0,1);
+      border: 1px solid rgba(255,0,0,1);
+
+  }
+
+}
+
+  .advert button{
+    padding: 5px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .container{
+    text-align: center;
+    width: 100%;
+  }
+  h1{
+    color: #00afff;
+    max-width: 80%;
+    padding: 20px;
+    margin: 5px auto;
+    font-size: clamp(1rem, 6vw, 3rem);
+    text-align: center;
+    line-height: 1;
+    font-family: poppins;
+  }
+  .benefits{
+    position: relative;
+    height: 1em;
+    z-index: -1;
+    overflow: hidden;
+    display: flex;
+    font-size: calc(1em +10px);
+    flex-direction: column;
+  }
+  hr{
+    box-shadow: 0 10px 10px;
+  }
+  @keyframes auto-scroll{
+    0%{
+      transform: translateY(0);
+    }
+    5%{
+      transform: translateY(0);
+    }
+    10%{
+      transform: translateY(-1em);
+    }
+    30%{
+      transform: translateY(-1em);
+    }
+    35%{
+      transform: translateY(-2em);
+    }
+    55%{
+      transform: translateY(-2em);
+    }
+    60%{
+      transform: translateY(-3em);
+    }
+    80%{
+      transform: translateY(-3em);
+    }
+    85%{
+      transform: translateY(-4em);
+    }
+    100%{
+      transform: translateY(-4em);
+    }
+  }
+  .benefits span{
+    background: -webkit-linear-gradient(red,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: auto-scroll 15s infinite;
+  }
+  nav{
+    width: 100%;
+  }
+  .navbar ul{
+    width: 100%;
+    display: flex;
+  }
+  .navbar ul li{
+    list-style: none;
+    margin: auto;
+    font-size: 12px;
+  }
+  .navbar ul li button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    opacity: .6;
+    transition: .5s;
+  }
+  .navbar ul li button:hover{
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .navbar button.active{
+    color: white;
+    opacity: 1;
+    background-color: #cc0000;
+    transition: 0.5s ease;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .container2{
+    margin:10px auto;
+    width: 95%;
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid red;
+    position: relative;
+    position: absolute;
+    
+  }
+  .container2 .box{
+    font-family:  Arial, Helvetica, sans-serif;
+    margin:10px 5px auto;
+    min-width: 100px;
+    max-width: 130px;
+    height: 170px;
+    flex: 1;
+    border: 1.5px solid lightgrey;
+    background-color: white;
+    border-radius: 1px;
+  }
+  .container2 .box img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+
+  }
+  .container2 .box .txt{
+    width: 100%;
+    height: 50%;
+    line-height: 1.3em;
+  }
+  .container2 .box .txt p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .name{
+    font-size: 11px;
+    opacity: .85;
+    text-transform: capitalize;
+  }
+  .talk{
+    font-size: 10px;
+    opacity: .7;
+    text-transform: capitalize;
+  }
+  .price{
+    font-size: 12px;
+  }
+  .fashion{
+    transition: .8s ease;
+    transform: translateX(0);
+    opacity: 1;
+    scale: 1;
+  }
+  .electronics{
+    transition: .8s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    scale: 0;
+  }
+  .homeappliances{
+    transition: .8s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    scale: 0;
+  }
+  .mamafua{
+    transition: .8s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    scale: 0;
+  }
+  .foundids{
+    transition: .8s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    scale: 0;
+  }
+  .all{
+    border: 2px solid yellow;
+    overflow: hidden;
+    height: 100vh;
+  }
+}
