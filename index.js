@@ -4,19 +4,14 @@ function fashion(){
   home=document.querySelector('.homeappliances')
   fua=document.querySelector('.mamafua')
   id=document.querySelector('.foundids')
-  fash.style.transform='translateX(0)'
   fash.style.opacity='1'
   fash.style.scale='1'
-  electro.style.transform='translateX(100%)'
   electro.style.opacity='0'
   electro.style.scale='0'
-  home.style.transform='translateX(100%)'
   home.style.opacity='0'
   home.style.scale='0'
-  fua.style.transform='translateX(100%)'
   fua.style.opacity='0'
   fua.style.scale='0'
-  id.style.transform='translateX(100%)'
   id.style.opacity='0'
   id.style.scale='0'
 }
@@ -26,19 +21,14 @@ function electronics(){
   home=document.querySelector('.homeappliances')
   fua=document.querySelector('.mamafua')
   id=document.querySelector('.foundids')
-  fash.style.transform='translateX(-100%)'
   fash.style.opacity='0'
   fash.style.scale='0'
-  electro.style.transform='translateX(0)'
   electro.style.opacity='1'
   electro.style.scale='1'
-  home.style.transform='translateX(100%)'
   home.style.opacity='0'
   home.style.scale='0'
-  fua.style.transform='translateX(100%)'
   fua.style.opacity='0'
   fua.style.scale='0'
-  id.style.transform='translateX(100%)'
   id.style.opacity='0'
   id.style.scale='0'
 
@@ -49,19 +39,14 @@ function homeappliances(){
   fash=document.querySelector('.fashion')
   fua=document.querySelector('.mamafua')
   id=document.querySelector('.foundids')
-  home.style.transform='translateX(0)'
   home.style.opacity='1'
   home.style.scale='1'
-  electro.style.transform='translateX(-100%)'
   electro.style.opacity='0'
   electro.style.scale='0'
-  fash.style.transform='translateX(-100%)'
   fash.style.opacity='0'
   fash.style.scale='0'
-  fua.style.transform='translateX(100%)'
   fua.style.opacity='0'
   fua.style.scale='0'
-  id.style.transform='translateX(100%)'
   id.style.opacity='0'
   id.style.scale='0'
 }
@@ -71,19 +56,14 @@ function mamafua(){
   electro=document.querySelector('.electronics')
   fash=document.querySelector('.fashion')
   id=document.querySelector('.foundids')
-  home.style.transform='translateX(-100%)'
   home.style.opacity='0'
   home.style.scale='0'
-  fua.style.transform='translateX(0)'
   fua.style.opacity='1'
   fua.style.scale='1'
-  electro.style.transform='translateX(-100%)'
   electro.style.opacity='0'
   electro.style.scale='0'
-  fash.style.transform='translateX(-100%)'
   fash.style.opacity='0'
   fash.style.scale='0'
-  id.style.transform='translateX(100%)'
   id.style.opacity='0'
   id.style.scale='0'
 }
@@ -93,19 +73,14 @@ function foundids(){
   home=document.querySelector('.homeappliances')
   electro=document.querySelector('.electronics')
   fash=document.querySelector('.fashion')
-  fua.style.transform='translateX(-100%)'
   fua.style.opacity='0'
   fua.style.scale='0'
-  id.style.transform='translateX(0)'
   id.style.opacity='1'
   id.style.scale='1'
-  home.style.transform='translateX(-100%)'
   home.style.opacity='0'
   home.style.scale='0'
-  electro.style.transform='translateX(-100%)'
   electro.style.opacity='0'
   electro.style.scale='0'
-  fash.style.transform='translateX(-100%)'
   fash.style.opacity='0'
   fash.style.scale='0'
   
