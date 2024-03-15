@@ -269,31 +269,26 @@ body{
   }
   .fashion{
     transition: .8s ease;
-    transform: translateX(0);
     opacity: 1;
     scale: 1;
   }
   .electronics{
     transition: .8s ease;
-    transform: translateX(100%);
     opacity: 0;
     scale: 0;
   }
   .homeappliances{
     transition: .8s ease;
-    transform: translateX(100%);
     opacity: 0;
     scale: 0;
   }
   .mamafua{
     transition: .8s ease;
-    transform: translateX(100%);
     opacity: 0;
     scale: 0;
   }
   .foundids{
     transition: .8s ease;
-    transform: translateX(100%);
     opacity: 0;
     scale: 0;
   }
